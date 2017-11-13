@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    
+    <body>
+        
+      <div class="container">
+          
+          <div class="header"><h1>Calculator</h1></div>
+        
+        <div class="box">
+        
+        
+        <div class="inputBox">
+            <label>Enter <input id="in1" size="5"></label>
+            <label>Enter <input id="in2" size="5"></label>
+        </div>
+            
+        <div class="buttonBox">
+            <form>
+            <label class="ops">x                
+            <input type="radio" name="radio" id="op1">
+            </label>
+            
+            <label class="ops">\
+                <input type="radio" name="radio" id="op2">
+                </label>
+            
+            <label class="ops">+
+                <input type="radio" name="radio" id="op3">
+                </label>
+            
+            <label class="ops">-
+                <input type="radio" name="radio" id="op4">
+                </label>
+         </form>
+            </div>
+        
+        <h2>Result</h2>
+            
+        <div class="result" id="result">
+
+            </div>
+            
+        <button onclick="calculate()">Calculate</button>
+            
+        <h2>Previous Results</h2>
+            
+        <div class="results" id="results">
+
+            </div>
+            
+         <button onclick="clearCalc()">Clear</button>   
+        
+        </div>
+    
+    </div>
+        
+<script src="main.js"></script> 
+</body>
+    
+</html>
